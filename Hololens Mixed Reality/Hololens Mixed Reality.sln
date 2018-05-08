@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hololens Mixed Reality", "Hololens Mixed Reality.csproj", "{B041750B-B50F-1EB9-EBBE-B4C9DB5CED6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hololens Mixed Reality.Player", "Hololens Mixed Reality.Player.csproj", "{19F7B2DD-E330-465F-8AC5-E97D5FBC0350}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B041750B-B50F-1EB9-EBBE-B4C9DB5CED6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B041750B-B50F-1EB9-EBBE-B4C9DB5CED6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B041750B-B50F-1EB9-EBBE-B4C9DB5CED6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B041750B-B50F-1EB9-EBBE-B4C9DB5CED6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F7B2DD-E330-465F-8AC5-E97D5FBC0350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F7B2DD-E330-465F-8AC5-E97D5FBC0350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F7B2DD-E330-465F-8AC5-E97D5FBC0350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F7B2DD-E330-465F-8AC5-E97D5FBC0350}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE64B909-6E45-45FB-800D-CD6AD7F2BC6F}
+	EndGlobalSection
+EndGlobal
