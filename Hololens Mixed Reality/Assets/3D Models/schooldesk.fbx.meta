@@ -21,6 +21,8 @@ ModelImporter:
     100026: Seat
     100028: SeatPipes
     100030: TubeCaps
+    100032: Camera
+    100034: Sun
     400000: -Lamp.000
     400002: -Lamp.001
     400004: -Lamp.002
@@ -37,6 +39,9 @@ ModelImporter:
     400026: Seat
     400028: SeatPipes
     400030: TubeCaps
+    400032: Camera
+    400034: Sun
+    2000000: Camera
     2100000: Fiberglass
     2100002: Metal-Chrome
     2100004: Plastic
@@ -80,7 +85,38 @@ ModelImporter:
     10800002: -Lamp.001
     10800004: -Lamp.002
     10800006: -Lamp.003
-  externalObjects: {}
+    10800008: Sun
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dirty-Chrome
+    second: {fileID: 2100000, guid: f5dc8a75adcd6d940a90defe3770b03f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fiberglass
+    second: {fileID: 2100000, guid: 180a82c5e64aed94090be8023fb569c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal-Chrome
+    second: {fileID: 2100000, guid: 36620a3b22bbfa540b5e03ad25933578, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: f12c6ceb9b99af94780040101dc8eac8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: e244e484c5388954a8ad045280ccffe7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plywood
+    second: {fileID: 2100000, guid: e6e63b8faf5eaa64a8fd183ee62169ce, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

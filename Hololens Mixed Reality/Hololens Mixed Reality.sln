@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hololens Mixed Reality", "Hololens Mixed Reality.csproj", "{B041750B-B50F-1EB9-EBBE-B4C9DB5CED6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hololens Mixed Reality.Player", "Hololens Mixed Reality.Player.csproj", "{B041750B-B50F-1EB9-EBBE-B4C9DB5CED6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hololens Mixed Reality.Player", "Hololens Mixed Reality.Player.csproj", "{5CF755AF-EB4C-4278-AF8F-C352F2DA6A52}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hololens Mixed Reality.Plugins", "Hololens Mixed Reality.Plugins.csproj", "{D0E9331D-6D69-138B-0FA8-D61DAA6FDF5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hololens Mixed Reality.Plugins.Player", "Hololens Mixed Reality.Plugins.Player.csproj", "{D0E9331D-6D69-138B-0FA8-D61DAA6FDF5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hololens Mixed Reality.Plugins.Player", "Hololens Mixed Reality.Plugins.Player.csproj", "{D2E34A97-134B-4BD1-AD26-4EF56E38BC8A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hololens Mixed Reality.Editor", "Hololens Mixed Reality.Editor.csproj", "{5AF2B984-0E21-DABB-5414-061F8D9B9652}"
 EndProject
@@ -23,18 +25,18 @@ Global
 		{B041750B-B50F-1EB9-EBBE-B4C9DB5CED6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B041750B-B50F-1EB9-EBBE-B4C9DB5CED6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B041750B-B50F-1EB9-EBBE-B4C9DB5CED6D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B041750B-B50F-1EB9-EBBE-B4C9DB5CED6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B041750B-B50F-1EB9-EBBE-B4C9DB5CED6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B041750B-B50F-1EB9-EBBE-B4C9DB5CED6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B041750B-B50F-1EB9-EBBE-B4C9DB5CED6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF755AF-EB4C-4278-AF8F-C352F2DA6A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF755AF-EB4C-4278-AF8F-C352F2DA6A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF755AF-EB4C-4278-AF8F-C352F2DA6A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF755AF-EB4C-4278-AF8F-C352F2DA6A52}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D0E9331D-6D69-138B-0FA8-D61DAA6FDF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D0E9331D-6D69-138B-0FA8-D61DAA6FDF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0E9331D-6D69-138B-0FA8-D61DAA6FDF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0E9331D-6D69-138B-0FA8-D61DAA6FDF5E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D0E9331D-6D69-138B-0FA8-D61DAA6FDF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0E9331D-6D69-138B-0FA8-D61DAA6FDF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0E9331D-6D69-138B-0FA8-D61DAA6FDF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0E9331D-6D69-138B-0FA8-D61DAA6FDF5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E34A97-134B-4BD1-AD26-4EF56E38BC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E34A97-134B-4BD1-AD26-4EF56E38BC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E34A97-134B-4BD1-AD26-4EF56E38BC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E34A97-134B-4BD1-AD26-4EF56E38BC8A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5AF2B984-0E21-DABB-5414-061F8D9B9652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5AF2B984-0E21-DABB-5414-061F8D9B9652}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AF2B984-0E21-DABB-5414-061F8D9B9652}.Release|Any CPU.ActiveCfg = Release|Any CPU
