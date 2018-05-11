@@ -1772,7 +1772,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2033701306}
   - component: {fileID: 2033701307}
-  - component: {fileID: 2033701308}
   m_Layer: 0
   m_Name: Transport
   m_TagString: Untagged
@@ -1809,19 +1808,6 @@ MonoBehaviour:
   CurSphere: {fileID: 1268136414}
   NewSphere: {fileID: 1303175334}
   keyword: dole
---- !u!114 &2033701308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2033701305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 648c851998488a4499241f18e340a4c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  x: 0
-  y: 0
 --- !u!1 &2090753442
 GameObject:
   m_ObjectHideFlags: 0
